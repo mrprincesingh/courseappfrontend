@@ -140,10 +140,14 @@ Please note that for security reasons, it's essential to use strong and unique p
 ```mermaid
 graph TD;
     App-->HomePage
-    HomePage-->SignUpPage;
+    HomePage-->Users;
+    Users-->SignUpPage;
       SignUpPage-->loginPage;
-       loginPage-->HomePage;
-       HomePage --> DeshboardPage
+       loginPage-->Profie;
+       HomePage --> Admin
+       Admin --> LoginPage
+       LoginPage--> AdminProfile
+      AdminProfile--> DeshboardPage
        DeshboardPage-->LeaderBoardPage
        DeshboardPage-->HomePage
      
