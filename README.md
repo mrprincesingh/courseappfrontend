@@ -64,30 +64,27 @@ Please note that for security reasons, it's essential to use strong and unique p
   ---
 ## 💫Tech-Stack->
 
-- #### For Frontend :-
+- #### For Frontend:-
    - `HTML5`
   - `CSS3`
   - `JavaScript `
    - `Redux`
   - `ReactJS`
-  - `Typescript `
    - `ES6 `
 
-- #### For Backend :-
+- #### For Backend:-
    - `NodeJS`
    - `ExpressJS`
     - `MongoDB `
-    - `Socket`
-- #### For deploy database :- 
+- #### For deploy database:- 
     
-     - `Cyclic`
-   
+     - `Render`
 
-- #### For Styling :-  
+- #### For Styling:-  
    - `Chakra UI `
    
 
-- #### For live Project : -
+- #### For live Project: -
    - `Vercel`
    
 ## ⭕Steps to run our game:
