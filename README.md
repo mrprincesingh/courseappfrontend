@@ -156,6 +156,7 @@ graph TD;
       SignUpPage-->loginPage;
        loginPage-->Profie;
  HomePage --> CoursePage
+CoursePage--> WatchLecturePage
  HomePage --> ContactUs
  HomePage --> RequestCourse
  HomePage --> AboutPage
