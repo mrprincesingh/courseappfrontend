@@ -154,7 +154,7 @@ graph TD;
     Users-->SignUpPage;
     Users-->loginPage;
       SignUpPage-->loginPage;
-       loginPage-->Profie;
+       loginPage-->Profile;
 Profile --> SubscriptionPage
 SubscriptionPage --> PaymentPage
 PaymentPage--> PaymentSuccess
