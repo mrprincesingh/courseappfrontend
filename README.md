@@ -61,7 +61,93 @@ Please note that for security reasons, it's essential to use strong and unique p
 
 
 
-                                       
+  ---
+## 💫Tech-Stack->
+
+- #### For Frontend :-
+   - `HTML5`
+  - `CSS3`
+  - `JavaScript `
+   - `Redux`
+  - `ReactJS`
+  - `Typescript `
+   - `ES6 `
+
+- #### For Backend :-
+   - `NodeJS`
+   - `ExpressJS`
+    - `MongoDB `
+    - `Socket`
+- #### For deploy database :- 
+    
+     - `Cyclic`
+   
+
+- #### For Styling :-  
+   - `Chakra UI `
+   
+
+- #### For live Project : -
+   - `Vercel`
+   
+## ⭕Steps to run our game:
+
+✨Clone the repository.
+
+✨Run the command `npm install` in both the frontend and backend folders .
+
+✨Run the command `npm run server` in the backend folder.
+
+✨Run the command `npm start` in the frontend folder run on localhost:3000.
+
+
+![spgmr](https://user-images.githubusercontent.com/107506646/222902675-7e06b37e-bbca-4803-9792-cc6752afee3e.gif)
+
+
+---
+## Features ✨:-
+---
+ | Serial No            | Feature                                                              |
+| ----------------- | ------------------------------------------------------------------ |
+| 1 | User signup and Login |
+| 2 | Home Page , Multiplayer Accessibility |
+| 3 | Gameboard Page ,live Chat |
+| 4 | LeaderBoard  Page ,Impressive UI|
+| 5 | navbar,footer,completely Responsive |
+| 6 | demo video , about game and rules  |
+
+---
+# Package.json(Dependency)✨:-
+
+ | Serial No            | Backend                      |  Frontend      |
+| ----------------- | -------------------|------------------------ |
+| 1 | bcrypt |   Chakra-ui |
+| 2 | mongoose |  React Router dom |
+| 3 | cors |    redux ,react-icons |
+| 4 | dotenv |  react redux ,axios |
+| 5 | express | typescript |
+| 6 | jsonwebtoken | redux thunk |
+| 7 | socket.io | socket.io-client |
+
+---
+
+## Flow
+
+```mermaid
+graph TD;
+    App-->HomePage
+    HomePage-->SignUpPage;
+      SignUpPage-->loginPage;
+       loginPage-->HomePage;
+       HomePage --> DeshboardPage
+       DeshboardPage-->LeaderBoardPage
+       DeshboardPage-->HomePage
+     
+```
+
+---
+## Screenshots 📷
+---                                     
                                                                                                                           
                                                                                                                           
                                                                                                                      
@@ -70,3 +156,8 @@ Please note that for security reasons, it's essential to use strong and unique p
                                                                                                                           
                                                                                                                           
                                                                                                                           
+
+---
+
+
+<h1 align="center">✨Thank You✨</h1>
