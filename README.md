@@ -1,4 +1,4 @@
-x> 💻 PROJECT NAME ✨ => Course App💻
+> 💻 PROJECT NAME ✨ => Course App💻
 <br>
 
 
