@@ -155,6 +155,10 @@ graph TD;
     Users-->loginPage;
       SignUpPage-->loginPage;
        loginPage-->Profie;
+Profile --> SubscriptionPage
+SubscriptionPage --> PaymentPage
+PaymentPage--> PaymentSuccess
+PaymentPage --> PaymentFailure
  HomePage --> CoursePage
 CoursePage--> WatchLecturePage
  HomePage --> ContactUs
