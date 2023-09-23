@@ -78,7 +78,7 @@ Please note that for security reasons, it's essential to use strong and unique p
     - `MongoDB `
 - #### For deploy database:- 
     
-     - `Render`
+    - `Render`
 
 - #### For Styling:-  
    - `Chakra UI `
@@ -152,14 +152,21 @@ graph TD;
     App-->HomePage
     HomePage-->Users;
     Users-->SignUpPage;
+    Users-->loginPage;
       SignUpPage-->loginPage;
        loginPage-->Profie;
+ HomePage --> CoursePage
+ HomePage --> ContactUs
+ HomePage --> RequestCourse
+ HomePage --> AboutPage
        HomePage --> Admin
-       Admin --> LoginPage
-       LoginPage--> AdminProfile
+       Admin --> AdminLoginPage
+       AdminLoginPage--> AdminProfile
       AdminProfile--> DeshboardPage
-       DeshboardPage-->LeaderBoardPage
-       DeshboardPage-->HomePage
+       DeshboardPage-->CreateCoursePage
+       DeshboardPage--> LectureControlPage
+       DeshboardPage--> MonitorUsersPage
+       MonitorUsersPage--> EditRolePage
      
 ```
 
