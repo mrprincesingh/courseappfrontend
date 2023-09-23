@@ -87,11 +87,11 @@ Please note that for security reasons, it's essential to use strong and unique p
 - #### For live Project: -
    - `Vercel`
    
-## ⭕Steps to run our game:
+## ⭕Steps to run our Project :
 
 ✨Clone the repository.
 
-✨Run the command `npm install` in both the frontend and backend folders .
+✨Run the command `npm install` in both the frontend and backend folders.
 
 ✨Run the command `npm run server` in the backend folder.
 
@@ -105,26 +105,33 @@ Please note that for security reasons, it's essential to use strong and unique p
 ## Features ✨:-
 ---
  | Serial No            | Feature                                                              |
-| ----------------- | ------------------------------------------------------------------ |
+| ----------------- | ------------------------------------------------------ |
 | 1 | User signup and Login |
-| 2 | Home Page , Multiplayer Accessibility |
-| 3 | Gameboard Page ,live Chat |
-| 4 | LeaderBoard  Page ,Impressive UI|
-| 5 | navbar,footer,completely Responsive |
-| 6 | demo video , about game and rules  |
+| 2 | Home Page, Multiplayer Accessibility |
+| 3 | Gameboard Page, live Chat |
+| 4 | LeaderBoard  Page, Impressive UI|
+| 5 | navbar, footer, completely Responsive |
+| 6 | Demo video, about game and rules  |
 
 ---
 # Package.json(Dependency)✨:-
 
  | Serial No            | Backend                      |  Frontend      |
-| ----------------- | -------------------|------------------------ |
-| 1 | bcrypt |   Chakra-ui |
+| ----------------- | -------------------|--------------------- |
+| 1 | bcrypt |   Chakra-ui  |
 | 2 | mongoose |  React Router dom |
-| 3 | cors |    redux ,react-icons |
-| 4 | dotenv |  react redux ,axios |
-| 5 | express | typescript |
+| 3 | cors | redux  |
+| 4 | dotenv |  react redux |
+| 5 | express | chartjs |
 | 6 | jsonwebtoken | redux thunk |
-| 7 | socket.io | socket.io-client |
+| 7 | cloudinary | react-hot-toast |
+| 8 | cookie-parser |  react-chartjs-2 |
+| 9 | datauri |  protected-route-react |
+| 10 | node-cron | react-icons |
+| 11 | multer |   axios |
+| 12 | nodemailer | react-dom |
+| 13 | razorpay | react |
+| 14 | validator | react-toolkit |
 
 ---
 
