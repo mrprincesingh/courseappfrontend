@@ -106,12 +106,22 @@ Please note that for security reasons, it's essential to use strong and unique p
 ---
  | Serial No            | Feature                                                              |
 | ----------------- | ------------------------------------------------------ |
-| 1 | User signup and Login |
-| 2 | Home Page, Multiplayer Accessibility |
-| 3 | Gameboard Page, live Chat |
-| 4 | LeaderBoard  Page, Impressive UI|
-| 5 | navbar, footer, completely Responsive |
-| 6 | Demo video, about game and rules  |
+| 1 | User signup and Login, Profile Page for User |
+| 2 | Home Page, To request a course |
+| 3 | Course page, search & filter course, about page  |
+| 4 | Watch lecture Page, Add to playlist |
+| 5 | Contact page, toggle for dark and light mode |
+| 6 | sidebar, footer, completely Responsive |
+| 7 | views count, monitor subscriber growth, monitor views growth  |
+| 8 | Profit tracking  subscribe and unsubscribe graph |
+| 9 | Upload course, delete course, edit course  |
+| 10 | Upload lecture, delete lecture, edit lecture, edit role|
+| 11| Edit profile, forget the password, reset the password, use of nodemailer |
+| 12 |progress bar, Admin login, Profile Page for Admin |
+| 13 | User and admin logout, Dashboard Page  |
+| 14| Razorpay integration, buy a subscription for using Razorpay |
+| 15 | navbar, footer, completely Responsive |
+| 16 | Demo video, about the game and rules  |
 
 ---
 # Package.json(Dependency)✨:-
